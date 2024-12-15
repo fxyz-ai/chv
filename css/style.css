@@ -106,7 +106,7 @@ body {
 }
 
 /* Back to top button */
-.back-to-top {
+.back-to-top, .to-contact {
   position: fixed;
   display: none;
   background: var(--primary-color);
@@ -120,12 +120,12 @@ body {
 }
 
 @media (max-width: 768px) {
-  .back-to-top {
+  .back-to-top,.to-contact {
     bottom: 15px;
   }
 }
 
-.back-to-top:focus {
+.back-to-top:focus,.to-contact:focus {
   background: white;
   color: var(--primary-color);
   border-width: medium;
@@ -133,7 +133,7 @@ body {
   outline: none;
 }
 
-.back-to-top:hover {
+.back-to-top:hover,.to-contact:hover {
   background: white;
   color: var(--primary-color);
   border-style: solid;
